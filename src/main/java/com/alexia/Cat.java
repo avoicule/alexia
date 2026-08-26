@@ -1,6 +1,9 @@
 package com.alexia;
 
-public class Cat extends Animal{
+public  class Cat extends AbstractAnimal {
+    static String address="homeless";
+
+    String name;
     Cat(){
         super(4, "black");
         System.out.println("a cat was born!");
@@ -16,7 +19,24 @@ public class Cat extends Animal{
     }
 
     @Override
-    public String getName(String nume, String prenume) {
-        return "Animal name " + nume + " | " + prenume;
+    public String getName() {
+        return name;
+    }
+
+    @Override
+    public void setName(String name) {
+        this.name = "Pisica "+name;
+
+    }
+
+
+    @Override
+    public String eat() {
+        return "cat eats ";
+    }
+
+    @Override
+    public String sleep(String hours) {
+        return "cat sleeps " + hours;
     }
 }

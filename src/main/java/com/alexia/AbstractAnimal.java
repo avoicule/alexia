@@ -1,21 +1,24 @@
 package com.alexia;
 
-public abstract class Animal {
+public abstract class AbstractAnimal implements AnimalInterface {
 
      int legs = 0;
-
+     static final String owner="NoName";
      String animalColour = "white";
-    Animal() {
+     String name;
+    AbstractAnimal() {
         this.legs=1000;
         this.animalColour="green";
         System.out.println("Animal created");
     }
 
-    Animal(int legs, String colour) {
+    AbstractAnimal(int legs, String colour) {
         this.legs = legs;
         animalColour = colour;
         System.out.println("Animal created with " + legs + " and " + colour);
     }
+
+
 
     public void speak() {
         System.out.println("Animal speaks");
@@ -31,5 +34,8 @@ public abstract class Animal {
         return animalColour;
     }
 
-    public abstract String getName(String familyName, String lastName);
+    public boolean adopt(){
+        System.out.println("adopted");
+        return false;
+    }
 }

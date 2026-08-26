@@ -1,6 +1,8 @@
 package com.alexia;
 
-public class Dog extends Animal{
+public class Dog extends AbstractAnimal {
+
+    String name;
     Dog(){
         System.out.println("a dog was born!");
 
@@ -11,7 +13,22 @@ public class Dog extends Animal{
     }
 
     @Override
-    public String getName(String firsName, String lastName  ) {
-        return firsName + " | " + lastName;
+    public String getName() {
+        return name;
+    }
+
+    @Override
+    public void setName(String name) {
+        this.name = "Cainele " + name;
+
+    }
+    @Override
+    public String eat() {
+        return "sdada";
+    }
+
+    @Override
+    public String sleep(String hours) {
+        return hours;
     }
 }
