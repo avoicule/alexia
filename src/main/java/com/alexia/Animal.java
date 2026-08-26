@@ -3,6 +3,7 @@ package com.alexia;
 public abstract class Animal {
 
      int legs = 0;
+
      String animalColour = "white";
     Animal() {
         this.legs=1000;

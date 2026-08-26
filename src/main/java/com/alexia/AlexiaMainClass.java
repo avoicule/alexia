@@ -5,7 +5,8 @@ public class AlexiaMainClass {
 
 
         Animal cat = new Dog();
-        System.out.println(cat.getName("Voiculet","Alexia"));
+
+
 
 
 
