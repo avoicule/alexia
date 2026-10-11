@@ -27,7 +27,7 @@ public class AlexiaMainClass {
         System.out.println(catsList);
 
         for (AnimalInterface animal : catsList) {
-            System.out.println(animal.adopt());
+           // System.out.println(animal.adopt());
             System.out.println(animal.getName());
 
         }
