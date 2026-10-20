@@ -1,0 +1,30 @@
+ENTRY MOVIE Barbie; Adventure, Comedy, Fantasy; PG-13
+DURATION 1:54
+BOX OFFICE 1442 million
+CAST Margot Robbie; Barbie
+CAST Ryan Gosling; Ken
+ENTRY SERIES Brooklyn Nine-Nine; Comedy, Crime; PG-13
+DURATION 153 episodes; 0:25
+CAST Andy Samberg; Jake Peralta
+CAST Melissa Fumero; Amy Santiago
+CAST Andre Braugher; Raymond Holt
+ENTRY MOVIE The Dark Knight; Action, Crime, Drama; PG-13
+DURATION 2:32
+BOX OFFICE 1006 million
+CAST Christian Bale; Bruce Wayne
+CAST Heath Ledger; Joker
+CAST Aaron Eckhart; Harvey Dent
+ENTRY MOVIE Finding Nemo; Animation, Adventure, Comedy; G
+DURATION 1:40
+BOX OFFICE 940 million
+CAST Albert Brooks; Marlin
+CAST Ellen DeGeneres; Dory
+ENTRY SERIES Breaking Bad; Crime, Drama, Thriller; NC-17
+DURATION 62 episodes; 0:47
+CAST Bryan Cranston; Walter White
+CAST Aaron Paul; Jesse Pinkman
+ENTRY MOVIE Deadpool; Action, Comedy; R
+DURATION 1:48
+BOX OFFICE 782 million
+CAST Ryan Reynolds; Deadpool
+CAST Morena Baccarin; Vanessa
